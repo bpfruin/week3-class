@@ -31,6 +31,7 @@ def use_secret_encoder(plain_text):
   return encoded_message
 
 def use_secret_decoder(encoded_text):
+  cipher_text = message_to_be_encoded
   return cipher_text
 
 
